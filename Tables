@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+                
+        </title>
+        <style>
+            table, tr, td, th{
+                border: 2px solid black
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>School</th>
+                <th>house</th>
+                <th>friends</th>
+            </tr>
+            <tr>
+                <td>Joel</td>
+                <td>Gns</td>
+                <td>bowie</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>North veiw</td>
+                <td>bowie</td>
+                <td>18</td>
+            </tr>
+        </table>
+    </body>
+</html>
