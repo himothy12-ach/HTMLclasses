@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Light Blue and Red Border</title>
+  <style>
+    body {
+      background-color: rgb(230, 173, 221);
+      margin: 0;
+    }
+
+    .box {
+      background-color: rgb(255, 255, 255);
+      border: 3px solid rgb(0, 255, 128);
+      padding: 20px;
+      width: 300px;
+      margin: 100px auto;
+      text-align: center;}
+      .emx {
+        background-color: rgb(255, 255, 255);
+      border: 3px solid rgb(255, 174, 0);
+      padding: 20px;
+      width: 300px;
+      margin: 100px auto;
+      text-align: center;}
+    
+
+    h1 {
+      margin: 0 0 10px 0;
+    }
+
+    p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Joel.D</h1>
+    <p>my favorite food is spagetti</p>
+  </div>
+  <div class="emx"> 
+    <h1>my favorits color</h1>
+    <ul>
+        <li>baby blue</li>
+        <li>dark red</li>
+        <li>neyon green</li>
+    </ul>
+</div>
+</body>
+</html>
