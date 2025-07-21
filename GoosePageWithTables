@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goose Restaurant</title>
+  <style>
+    /* Reset & Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fef6f0;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      font-weight: 700;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #333;
+    }
+
+    h2 {
+      color: #e67e22;
+      margin-top: 30px;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+    }
+
+    img {
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      border: 4px solid #fff;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+      width: 100%;
+      margin-top: 40px;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #fff;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+
+    th {
+      background-color: #f9b17a;
+      color: #fff;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fdf1e7;
+    }
+
+    caption {
+      caption-side: top;
+      font-weight: bold;
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 600px) {
+      .content {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      img {
+        width: 180px;
+        height: 180px;
+      }
+
+      table {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="Gooseimage.jpg" alt="Goose logo image" />
+  </div>
+
+  <div class="content">
+    <h1>Goose Restaurant</h1>
+    <hr>
+
+    <h2>About the Restaurant</h2>
+    <p>
+      The Black Goose Bistro offers casual lunch and dinner fare in a trendy and welcoming atmosphere.
+      Our menu changes regularly to highlight the freshest seasonal ingredients.
+    </p>
+
+    <h2>Our Food</h2>
+    <p>
+      You bring the fun — we’ll handle the cooking! Black Goose Catering provides everything from snacks
+      for small gatherings to elegant corporate events.
+    </p>
+
+    <h2>Location & Hours</h2>
+    <p>
+      <strong>Location:</strong> Seekonk, Massachusetts<br>
+      <strong>Hours:</strong> <br>
+      Mon–Thu: 11 AM – 9 PM<br>
+      Fri–Sat: 11 AM – Midnight
+    </p>
+
+    <table>
+      <caption>Guest Information</caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Height</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Joel</td>
+          <td>12</td>
+          <td>5'8"</td>
+        </tr>
+        <tr>
+          <td>David</td>
+          <td>10</td>
+          <td>5'0"</td>
+        </tr>
+        <tr>
+          <td>Jessica</td>
+          <td>2</td>
+          <td>3'4"</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
