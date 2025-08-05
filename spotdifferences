@@ -1,0 +1,83 @@
+
+
+1.)<html> <!-- Missing: lang="en" -->
+
+
+2.)body {
+  background-color: lightgray;       /* Not in 1st code (it uses --background var) */
+  font-family: Arial;                /* 1st uses Google Font: 'Poppins' */
+}
+
+
+
+3.).header {
+  background-color: rgb(255, 5, 5);  /* Not in 1st code */
+}
+
+.logo {
+  color: blue;                       /* 1st code uses white logo text */
+}
+
+
+
+4.).nav a:hover {
+  color: rgb(43, 255, 0);           /* Very different from the accent-color in 1st code */
+}
+
+
+5.).logo {
+  float: left;                      /* Not used in 1st code */
+}
+
+.nav {
+  float: right;                     /* 1st code uses Flexbox for layout */
+
+
+6.)<div class="box1">
+  <img src="Moutain.jpg" alt="moutain image" width="600" height="400"> <!-- Fixed sizes -->
+  <div class="bottom-left">        <!-- Caption positioned absolutely -->
+    <h3>Frozen Moutain</h3>
+    <p>landscape</p>
+  </div>
+</div>
+
+<div class="box2">
+  <img src="sea.jpg" alt="sea image" width="500" height="400">
+  <div class="bottom-right">       <!-- Again, absolutely positioned text -->
+    <h3>A turquoise colored sea</h3>
+    <p>landscape</p>
+  </div>
+</div>
+
+
+
+
+7.).bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+
+
+
+
+8.)@media (max-width: 768px) { ... }  /*the second code does not contain this*/my code
+
+
+
+
+
+
+
+homework to spot the differences in the 1st and second code
+
+
+second code is mine and 1st is the 1 that we used chatgpt 2 improve it 
