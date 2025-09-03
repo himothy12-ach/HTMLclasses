@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Cool Webpage!!!</title>
+
+<!-- this is a comment -->
+<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+
+<style>
+body{
+background-color: lightblue;
+font-family: Comic Sans MS;
+}
+
+#myDiv{
+width:400;
+height:400;
+background:white;
+padding:10;
+}
+
+footer{
+text-align:center;
+margin-top:50px;
+font-size:12;
+}
+</style>
+
+</head>
+<body>
+
+<!-- this is a comment -->
+<center><h1 style="color:red;">Welcome 2 My Website!!!</h1></center>
+<b><i>This site is under construction</i></b><br><br>
+
+<!-- this is a comment -->
+Home | About Me | My Stuff (coming soon lol)
+<br><br>
+
+<!-- this is a comment -->
+<div id="myDiv">
+<h2 style="color:purple">My Box of Words:</h2>
+<p>I was gonna put a picture here... but I changed my mind.</p>
+<font color="green">Just imagine something cool instead.</font>
+</div>
+
+
+
+<!-- this is a comment -->
+<span>
+    <h3>This is inside a span!!! 😅</h3>
+</span>
+
+<!-- this is a comment -->
+<center>
+<div style="background:pink; padding:20px;">
+    <p>This is a pink box</p>
+    <p><b>Made with &lt;center&gt; and inline style</b></p>
+</div>
+</center>
+
+<!-- this is a comment -->
+<footer>
+<hr>
+<p>Made by ME &copy; 2025 lol</p>
+</footer>
+
+</body>
+</html>
