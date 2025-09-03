@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Cool Webpage!!!</title>
+
+<!-- Favicon (still here cause it's kinda cool) -->
+<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+
+<style>
+body{
+background-color: lightblue;
+font-family: Comic Sans MS;
+}
+
+#myDiv{
+width:400;
+height:400;
+background:white;
+padding:10;
+}
+
+footer{
+text-align:center;
+margin-top:50px;
+font-size:12;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Header done with a CENTER tag lol -->
+<center><h1 style="color:red;">Welcome 2 My Website!!!</h1></center>
+<b><i>This site is under construction</i></b><br><br>
+
+<!-- Navigation replaced with just text now -->
+Home | About Me | My Stuff (coming soon lol)
+<br><br>
+
+<!-- Div with random stuff -->
+<div id="myDiv">
+<h2 style="color:purple">My Box of Words:</h2>
+<p>I was gonna put a picture here... but I changed my mind.</p>
+<font color="green">Just imagine something cool instead.</font>
+</div>
+
+<br><br><br>
+
+<!-- Block element inside inline span, still weird -->
+<span>
+    <h3>This is inside a span!!! 😅</h3>
+</span>
+
+<!-- Layout using <center> and <br> -->
+<center>
+<div style="background:pink; padding:20px;">
+    <p>This is a pink box</p>
+</div>
+</center>
+
+<!-- Footer at bottom -->
+<footer>
+<hr>
+<p>Made by ME lol</p>
+</footer>
+
+</body>
+</html>
