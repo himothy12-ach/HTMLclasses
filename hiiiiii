@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+
+  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <style>
+    body {
+      background-color: lightgray;
+      font-family: Arial;
+    }
+
+    .header {
+      background-color: rgb(255, 5, 5);
+      padding: 20px;
+    }
+
+    .logo {
+      font-size: 24px;
+      color: blue;
+      float: left;
+    }
+
+    .nav {
+      float: right;
+    }
+
+    .nav a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: black;
+    }
+
+    .nav a:hover {
+      color: rgb(43, 255, 0);
+    }
+
+    .intro {
+      text-align: center;
+      padding: 30px;
+    }
+
+    .intro h2 {
+      font-size: 22px;
+    }
+
+    .intro p {
+      font-size: 14px;
+      color: gray;
+    }
+
+    .box1 {
+      display: flex;
+      float: left;
+      width:70%;
+      position: relative;
+      text-align: left;
+      color: white;
+    }
+    
+    .box2 {
+      display: flex;
+      float: right;
+      width: 30%;
+      position: relative;
+      text-align:left;
+      color: white;
+    }
+    
+    .bottom-left {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+    }
+
+    .bottom-right {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+    }
+
+    .boxes {
+      width: 60%;
+      display: flex;
+      float: absolute;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header w3-card">
+    <div class="logo">Explore</div>
+    <div class="nav">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <div class="intro w3-container w3-light-gray">
+    <h2>I am a photographer</h2>
+    <p>This is my photography website. I like taking pictures of nature and landscapes.</p>
+  </div>
+
+  <div class="boxes">
+    <div class="box1 w3-card">
+      <img src="Moutain.jpg" alt="moutain image" width="600" height="400">
+      <div class="bottom-left">
+        <h3>A turquoise colored sea</h3>
+        <p>landscape</p>
+      </div>
+    </div>
+
+    <div class="box2 w3-card">
+      <img src="sea.jpg" alt="sea image" width="500" height="400">
+      <div class="bottom-right">
+        <h3>Frozen Moutain</h3>
+        <p>landscape</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
