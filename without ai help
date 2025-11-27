@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<form>
+  <label for="email1">First name:</label><br>
+  <input type="email" id="email1" name="email" autocomplete="on"><br><br>
+
+  <label for="email2">Last name:</label><br>
+  <input type="email" id="email2" name="email" autocomplete="on"><br><br>
+</form>
+
+<br>
+
+<form action="/action_page.php">
+  <label for="dog">Choose a dog type:</label><br>
+  <input list="dogs" id="dog" name="dogType">
+
+  <datalist id="dogs">
+    <option value="Golden Lab">
+    <option value="Golden Retriever">
+    <option value="Doberman">
+    <option value="Other">
+  </datalist>
+
+  <br><br>
+  <input type="submit">
+</form>
+
+<br>
+
+<form action="/action_page.php">
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" style="width:200px; height:50px;"></textarea>
+  <br><br>
+  <input type="submit">
+</form>
+
+<br>
+
+<form action="/action_page.php">
+  <label>Favorite Game:</label><br><br>
+
+  <input type="radio" id="Roblox" name="fav_Game" value="Roblox">
+  <label for="Roblox">Roblox</label><br>
+
+  <input type="radio" id="CallOfDuty" name="fav_Game" value="Call of duty">
+  <label for="CallOfDuty">Call of Duty</label><br>
+
+  <input type="radio" id="Fortnite" name="fav_Game" value="Fortnite">
+  <label for="Fortnite">Fortnite</label><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<br>
+
+
+<form action="/action_page.php">
+  <label for="birthday">Choose current date:</label><br>
+  <input type="date" id="birthday" name="birthday">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
