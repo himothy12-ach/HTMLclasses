@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    padding: 20px;
+  }
+
+  form {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="submit"] {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  input[type="submit"]:hover {
+    background: #0056b3;
+  }
+
+  input[type="radio"] {
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .radio-label {
+    font-weight: normal;
+    margin-left: 5px;
+  }
+</style>
+</head>
+
+<body>
+
+<!-- Email Form -->
+<form>
+  <label for="email1">First name:</label>
+  <input type="email" id="email1" name="email" autocomplete="on">
+
+  <label for="email2">Last name:</label>
+  <input type="email" id="email2" name="email" autocomplete="on">
+</form>
+
+<!-- Dog Type Form -->
+<form action="/action_page.php">
+  <label for="dog">Choose a dog type:</label>
+  <input list="dogs" id="dog" name="dogType">
+
+  <datalist id="dogs">
+    <option value="Golden Lab">
+    <option value="Golden Retriever">
+    <option value="Doberman">
+    <option value="Other">
+  </datalist>
+
+  <input type="submit">
+</form>
+
+<!-- Message Box Form -->
+<form action="/action_page.php">
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" style="height:60px;"></textarea>
+  <input type="submit">
+</form>
+
+<!-- Radio Buttons Form -->
+<form action="/action_page.php">
+  <label>Favorite Game:</label><br>
+
+  <input type="radio" id="Roblox" name="fav_Game" value="Roblox">
+  <label class="radio-label" for="Roblox">Roblox</label><br>
+
+  <input type="radio" id="CallOfDuty" name="fav_Game" value="Call of duty">
+  <label class="radio-label" for="CallOfDuty">Call of Duty</label><br>
+
+  <input type="radio" id="Fortnite" name="fav_Game" value="Fortnite">
+  <label class="radio-label" for="Fortnite">Fortnite</label><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<!-- Date Picker Form -->
+<form action="/action_page.php">
+  <label for="birthday">Choose current date:</label>
+  <input type="date" id="birthday" name="birthday">
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
